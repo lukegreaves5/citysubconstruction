@@ -1,0 +1,67 @@
+/*
+ *  cpt-staff.scss
+ * -----------------------------------------------
+*/
+.sidebar-staff {
+	.widget-staff {
+		&.staff-contact-info {
+			.dl-horizontal {
+				dt {
+					i {
+						color: $theme-color1;
+					}
+				}
+			}
+		}
+	}
+}
+.tm-sc-staff {
+	.contact-info {
+		li {
+			i {
+				color: $theme-color1;
+			}
+		}
+	}
+}
+
+
+
+.tm-sc-staff {
+	&.staff-style5-current-theme {
+		.tm-staff {
+		}
+		.staff-inner {
+			.staff-basic-info {
+				.speciality:after {
+					background: $theme-color1;
+				}
+			}
+			.staff-content {
+				&:before {
+					background-color: $theme-color1;
+				}
+				.name {
+					color: $theme-color1;
+				}
+				.styled-icons a {
+					background-color: $theme-color2;
+					&:hover {
+						background-color: rgba($theme-color2, .20);;
+					}
+				}
+			}
+
+			&:hover {
+				.staff-content {
+					.styled-icons a {
+						background-color: $theme-color2;
+						&:hover {
+							background-color: rgba($theme-color2, .20);
+						}
+					}
+				}
+			}
+		}
+	}
+}

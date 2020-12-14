@@ -1,0 +1,16 @@
+/*
+ * Shortcode: cf7.scss
+ * -----------------------------------------------
+*/
+.volunteer-register-form {
+	.form-control {
+		background: none;
+		border: none;
+		border-bottom: 2px solid #eee;
+		border-radius: 0;
+		padding-left: 0;
+		&::placeholder{
+			color: #fff;
+		}
+	}
+}

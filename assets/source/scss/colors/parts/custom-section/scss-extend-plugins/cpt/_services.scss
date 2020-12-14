@@ -1,0 +1,65 @@
+/*
+ *  cpt-services.scss
+ * -----------------------------------------------
+*/
+.tm-sc-services {
+	.tm-service {
+		.btn-plain-text {
+			&:after {
+				background: $theme-color1;
+			}
+		}
+		.btn-plain-text-with-arrow {
+			&:focus, &:hover {
+				&:after {
+					color: $theme-color1;
+				}
+			}
+		}
+		.details {
+			.cat-list {
+				li {
+					a {
+						color: $theme-color1;
+					}
+				}
+			}
+		}
+	}
+	&.services-style7-fullwidth-gallery {
+		.tm-service {
+			.thumb {
+				.link {
+					background: $theme-color1;
+				}
+			}
+			.details {
+				.cat-list {
+					li {
+						a {
+							color: $theme-color1;
+						}
+					}
+				}
+			}
+		}
+	}
+	&.services-style-current-theme {
+		.tm-service {
+			.details {
+				border-bottom-color: $theme-color1;
+				.symbol-icon {
+					background: $theme-color1;
+				}
+			}
+
+			&:hover {
+				.details{
+					.symbol-icon {
+						background: $theme-color2;
+					}
+				}
+			}
+		}
+	}
+}
